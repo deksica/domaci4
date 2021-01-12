@@ -1,0 +1,95 @@
+body {
+background-image: url(slika.jpg);
+    background-repeat: no-repeat; 
+   height: 100vh;
+    background-size: cover;
+    position: relative;
+
+  }
+  
+
+.bijela {
+    
+color:white ;
+    background: transparent;
+    width:100%;
+    text-align:center;
+    padding:20px;
+}
+.crvena {
+    
+    color: red;
+    background-color: white;
+   
+    
+}
+
+.pjesma{
+    
+        position: absolute;
+    top:10;
+    right: 0;
+    
+}
+ .bijela{
+
+    width: auto;
+ }
+
+ .card{
+
+    position: absolute;
+    bottom: 0;
+    right: 0;
+background:transparent;
+color:white;
+width:250px;
+ }
+
+ .p{
+
+    width: 100%;
+    text-align:center;
+ }
+
+ .container{
+    position:absolute;
+    top:100px;
+    left:0;
+     }
+
+ table{
+     color:white;
+     font-size: 15px;
+ }
+
+ th,td{
+     padding:10px;
+ }
+
+ .veca_slova{
+     font-size:25px;
+ }
+
+ .snow{
+     width: 100%;
+     height: 100%;
+    background-image:
+            url(sneg1.png),
+               url(sneg2.png),
+               url(sneg3.png);
+    animation: snow 30s linear infinite;
+    }
+    
+    @keyframes snow {
+        0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+        100% {background-position: 500px 1000px, 400px 400px, 300px 300px}
+    }
+.s{
+    color: white;
+     width:100%;
+     text-align: center;
+
+
+}
+ 
